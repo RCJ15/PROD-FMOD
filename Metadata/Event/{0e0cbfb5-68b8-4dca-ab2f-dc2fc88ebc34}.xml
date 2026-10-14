@@ -5,7 +5,7 @@
 			<value>GoblinCoin</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c9f21bef-76cd-446e-8eae-c2c837e735f4}</destination>
@@ -95,11 +95,15 @@
 	<object class="MixerBusPanner" id="{a9c2a73f-2a48-4ae1-988f-31b58e9100e7}" />
 	<object class="MixerBusEffectChain" id="{d8b7b6bf-3b95-4fd5-ad17-11b3fe1505e3}">
 		<relationship name="effects">
+			<destination>{fe8507b7-defe-457e-9a67-ae4893b3d844}</destination>
 			<destination>{c70c5c7d-140c-4292-ac74-7fb6b202ad0b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{12fda958-ad68-49a0-bea1-6aa1280c3a28}" />
 	<object class="MultiSound" id="{a5ba8b52-cfa0-49a0-9436-46ac98ce670a}">
+		<relationship name="modulators">
+			<destination>{1bda6ec3-2665-47e7-bd24-54f512280958}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{956ba255-9911-4e37-a715-b0c5180602cb}</destination>
 			<destination>{9fe896e6-3359-420b-ab2d-87d50e00795a}</destination>
@@ -107,7 +111,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cd244005-72a1-4f36-b7b9-239832a4d30d}" />
+	<object class="ProxyEffect" id="{fe8507b7-defe-457e-9a67-ae4893b3d844}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="preset">
+			<destination>{8f184e8d-9482-467d-a631-81fd9c0f26ac}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{c70c5c7d-140c-4292-ac74-7fb6b202ad0b}" />
+	<object class="RandomizerModulator" id="{1bda6ec3-2665-47e7-bd24-54f512280958}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{956ba255-9911-4e37-a715-b0c5180602cb}">
 		<relationship name="audioFile">
 			<destination>{6e68ed8a-8222-4ea6-9560-26cf490b104c}</destination>

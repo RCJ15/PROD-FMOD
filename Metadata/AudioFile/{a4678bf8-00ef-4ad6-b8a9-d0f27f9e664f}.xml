@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a4678bf8-00ef-4ad6-b8a9-d0f27f9e664f}">
+		<property name="assetPath">
+			<value>SFX/DummyHit/BoxDestroy_Crumble_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.85714583333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c21828a-d1f9-448e-88fd-754afddf9a0e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6a53e7c5-5a0f-4471-8381-07a9163d1acc}">
+		<property name="assetPath">
+			<value>SFX/WoodFootsteps/Footstep_Wood_8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.1875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c21828a-d1f9-448e-88fd-754afddf9a0e}</destination>
+		</relationship>
+	</object>
+</objects>
