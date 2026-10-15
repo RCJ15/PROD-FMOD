@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{70e197ff-6f52-4793-bf48-78806a152258}">
+		<property name="assetPath">
+			<value>WakeUpGreetingByGhost.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.5517687074829931</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c21828a-d1f9-448e-88fd-754afddf9a0e}</destination>
+		</relationship>
+	</object>
+</objects>
