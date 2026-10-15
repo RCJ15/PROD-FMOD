@@ -5,7 +5,7 @@
 			<value>ButICantFight</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1dba490-297d-410b-910b-b9a8c4a97983}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{54ccb086-41c0-4be0-a6da-127d685713c5}">
 		<relationship name="effects">
 			<destination>{ae391c4b-1faa-4d2e-aff7-2244dd48c913}</destination>
-			<destination>{cdf43e32-cf49-42a0-b24d-f45e94ddc02e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b109754c-c488-4903-a873-e09b3fcb6730}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{71c2a6d1-7415-4e8f-99bf-52c46e672e5b}" />
 	<object class="MixerBusFader" id="{ae391c4b-1faa-4d2e-aff7-2244dd48c913}" />
-	<object class="SpatialiserEffect" id="{cdf43e32-cf49-42a0-b24d-f45e94ddc02e}" />
 	<object class="MixerBusFader" id="{0f9461c8-c8ca-4ca5-a053-f8e4f85841cd}" />
 </objects>

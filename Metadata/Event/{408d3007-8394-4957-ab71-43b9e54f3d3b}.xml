@@ -5,7 +5,7 @@
 			<value>WhereTheHellAmI</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1dba490-297d-410b-910b-b9a8c4a97983}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{1a0ab60f-df38-4ad6-9730-fb739fab68fb}">
 		<relationship name="effects">
 			<destination>{9dc8bb80-69b2-4718-b082-352ea97eaa9a}</destination>
-			<destination>{a19e7255-a9a3-4413-a7d8-a9ced7387d7b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e0e8fb34-19b9-4591-ab65-929a804e81ee}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{8381cc8d-376b-4873-92d0-0af59e5de80e}" />
 	<object class="MixerBusFader" id="{9dc8bb80-69b2-4718-b082-352ea97eaa9a}" />
-	<object class="SpatialiserEffect" id="{a19e7255-a9a3-4413-a7d8-a9ced7387d7b}" />
 	<object class="MixerBusFader" id="{b957b9cb-16f1-42be-8874-9361f6fcaa93}" />
 </objects>

@@ -5,7 +5,7 @@
 			<value>WhereHoleLead</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{53be9ae5-0643-4e28-9c6d-b042c32b62d0}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{03e56c7f-d2cf-4c44-aa07-847b0cdc62e2}">
 		<relationship name="effects">
 			<destination>{ac741846-e5f7-48e6-8444-be631ea70e02}</destination>
-			<destination>{d9ae2390-4cc8-4904-9e8d-493f095b3380}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{726500da-3bef-4c2f-a2a1-0820859ef66e}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{02bb0766-b52a-49cc-ade1-fefc0f6abb1f}" />
 	<object class="MixerBusFader" id="{ac741846-e5f7-48e6-8444-be631ea70e02}" />
-	<object class="SpatialiserEffect" id="{d9ae2390-4cc8-4904-9e8d-493f095b3380}" />
 	<object class="MixerBusFader" id="{c9116760-52f1-4b1d-b614-55fa2bc21aa2}" />
 </objects>

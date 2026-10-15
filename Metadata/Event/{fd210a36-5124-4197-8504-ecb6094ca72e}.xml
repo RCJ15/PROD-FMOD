@@ -5,7 +5,7 @@
 			<value>DanteImComing1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{53be9ae5-0643-4e28-9c6d-b042c32b62d0}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{b788822b-b9a3-4235-b29b-cca22ca1ace0}">
 		<relationship name="effects">
 			<destination>{7b447e4b-1703-4f3a-8f46-0b8b8689928b}</destination>
-			<destination>{736d6489-a489-47a1-a500-70d4aec7accf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f26b5471-a3a1-4c2b-b1d7-a4b2252f0dc4}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{a97f0051-ef19-40e4-b592-f062af2a877e}" />
 	<object class="MixerBusFader" id="{7b447e4b-1703-4f3a-8f46-0b8b8689928b}" />
-	<object class="SpatialiserEffect" id="{736d6489-a489-47a1-a500-70d4aec7accf}" />
 	<object class="MixerBusFader" id="{6a1cee24-3ca8-4b4f-9820-d9e7067874c8}" />
 </objects>

@@ -5,7 +5,7 @@
 			<value>WhatFindBoy</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{53be9ae5-0643-4e28-9c6d-b042c32b62d0}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{f7c12a39-6b94-4171-b578-9ebe213f60b3}">
 		<relationship name="effects">
 			<destination>{ad19ec4b-319e-4b1e-830e-33da18595313}</destination>
-			<destination>{f1c5977c-99c8-4d4b-815c-d4fb61d94baa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{490afc15-ca7c-44de-9669-8fcdb4a97002}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{6f0fe114-525a-4388-9f76-464f0b5a816e}" />
 	<object class="MixerBusFader" id="{ad19ec4b-319e-4b1e-830e-33da18595313}" />
-	<object class="SpatialiserEffect" id="{f1c5977c-99c8-4d4b-815c-d4fb61d94baa}" />
 	<object class="MixerBusFader" id="{ccf4318f-8e2c-4e65-9dc2-c4b3a152cc96}" />
 </objects>

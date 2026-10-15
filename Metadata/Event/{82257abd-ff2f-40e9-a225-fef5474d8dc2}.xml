@@ -5,7 +5,7 @@
 			<value>DoIWantToFollowInHole</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{53be9ae5-0643-4e28-9c6d-b042c32b62d0}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{466a30d0-f67e-4ac4-9b19-4e6cee609dda}">
 		<relationship name="effects">
 			<destination>{d4663fa5-3bdb-4623-86ef-2b79a8160c4e}</destination>
-			<destination>{e0766be4-3e9f-4dc7-940e-2dd682e2f37c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8b6fa548-321c-4a61-bbb9-401bd3570795}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{ede84e04-241a-4826-8d4f-a33393050ade}" />
 	<object class="MixerBusFader" id="{d4663fa5-3bdb-4623-86ef-2b79a8160c4e}" />
-	<object class="SpatialiserEffect" id="{e0766be4-3e9f-4dc7-940e-2dd682e2f37c}" />
 	<object class="MixerBusFader" id="{443fb09a-4a05-4d78-b4bc-8a042a1b9af0}" />
 </objects>
