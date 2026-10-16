@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f06bd3a6-8060-4f49-9aa8-444c1def5005}">
 		<property name="name">
-			<value>PrepareToBlock</value>
+			<value>PrepareToBlock1</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

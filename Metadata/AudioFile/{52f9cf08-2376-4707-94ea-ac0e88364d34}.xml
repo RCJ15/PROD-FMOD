@@ -2,7 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{52f9cf08-2376-4707-94ea-ac0e88364d34}">
 		<property name="assetPath">
-			<value>SFX/PrepareForBlock.wav</value>
+			<value>SFX/PrepareToBlock1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

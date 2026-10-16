@@ -103,7 +103,7 @@
 	<object class="MixerBusPanner" id="{ca47726e-11be-4e8d-aefd-a2123969464f}" />
 	<object class="SingleSound" id="{e1088e0f-2905-448d-a63a-fa17f3d492fd}">
 		<property name="volume">
-			<value>-34</value>
+			<value>-15.5</value>
 		</property>
 		<property name="pitch">
 			<value>11.5</value>
@@ -130,7 +130,7 @@
 			<value>-80</value>
 		</property>
 		<property name="lowCrossover">
-			<value>75</value>
+			<value>200</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{88f31518-9407-4852-b5d1-be09042c97f8}">

@@ -96,12 +96,13 @@
 	<object class="MixerBusEffectChain" id="{1c204d2f-4ea7-4014-9d43-46bbc1b47489}">
 		<relationship name="effects">
 			<destination>{46db7f19-d97c-4e95-82dd-68e728e59a1e}</destination>
+			<destination>{0075b176-d974-4526-9fb2-7e0eb17ead3f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{db14288b-b6be-4910-9dc9-8295e7c72c4e}" />
 	<object class="SingleSound" id="{1a9a3e01-4bcd-4e31-bacb-dc3fa504fa8c}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{84ec65a9-6a6b-4da5-bbf6-63d1c243e2ee}</destination>
@@ -112,6 +113,14 @@
 	</object>
 	<object class="MixerBusFader" id="{74c3bc42-3ac4-4f49-a15c-4ce55d2c1bff}" />
 	<object class="MixerBusFader" id="{46db7f19-d97c-4e95-82dd-68e728e59a1e}" />
+	<object class="ThreeEQEffect" id="{0075b176-d974-4526-9fb2-7e0eb17ead3f}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="lowCrossover">
+			<value>220</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{84ec65a9-6a6b-4da5-bbf6-63d1c243e2ee}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
