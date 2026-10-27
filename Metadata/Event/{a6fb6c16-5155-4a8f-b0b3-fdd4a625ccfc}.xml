@@ -97,6 +97,7 @@
 		<relationship name="effects">
 			<destination>{413873de-5c4d-4016-aabb-04ba7c632fa4}</destination>
 			<destination>{1d97d2bb-2b7a-4873-bd82-01208ff9dd78}</destination>
+			<destination>{513c9aa8-5e46-45cb-9c89-5aabd25da78c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3df03d48-04b3-4ad0-9c8f-3646ed6cdbe3}" />
@@ -128,6 +129,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1d97d2bb-2b7a-4873-bd82-01208ff9dd78}" />
+	<object class="ThreeEQEffect" id="{513c9aa8-5e46-45cb-9c89-5aabd25da78c}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="lowCrossover">
+			<value>300</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{6b4f85ea-0d58-4c76-985b-4677dc907f3f}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
